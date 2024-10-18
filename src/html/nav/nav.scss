@@ -1,0 +1,27 @@
+.nav {
+	display: flex;
+
+	// .nav__list
+
+	&__list {
+		display: flex;
+		gap: 30px;
+	}
+
+	// .nav__item
+
+	&__item {
+	}
+
+	// .nav__link
+
+	&__link {
+		display: block;
+		padding: 10px 10px;
+		text-decoration: none;
+		color: #062f5e;
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 1.5;
+	}
+}

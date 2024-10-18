@@ -1,0 +1,15 @@
+@import "fonts";
+@import "vendor/vendor";
+
+@import "../html/header/header";
+@import "../html/nav/nav";
+@import "../html/footer/footer";
+
+.body {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.main {
+	padding: 0px 30px;
+}

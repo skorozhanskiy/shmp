@@ -1,0 +1,42 @@
+/*-reset-*/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	padding: 0;
+	margin: 0;
+}
+*,
+*::before,
+::after {
+	box-sizing: border-box;
+}
+
+//btn-reset
+.reset-btn {
+	border: none;
+	outline: none;
+	background-color: transparent;
+	cursor: pointer;
+	padding: 0;
+	margin: 0;
+}
+//end-btn-reset
+
+//input-reset
+.reset-input {
+	border: none;
+	outline: none;
+}
+//end-input-reset
+
+/*-end reset-*/
